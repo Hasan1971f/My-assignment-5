@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-5</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="lexend-font">
+    <header class="w-full  bg-white">
+        <section class="bg-[#d3da4b37] pt-1 pb-3">
+            <nav class="lg:w-11/12 flex justify-between mx-auto items-center mt-4 p-4 md:p-1">
+                <div>
+                    <button id="blog" class="py-3 px-8 bg-[#B4F461] p-10 text-xl font-normal rounded-lg"><a
+                            href="">Home</a></button>
+                </div>
+                <div class="flex items-center text-xl font-normal ">
+                    <img src="assets/logo.png" alt="">
+                    <h1 class="ml-2 hidden md:block">Donate Bangladesh</h1>
+                </div>
+                <div class="flex items-center text-xl font-normal ">
+                    <img src="assets/coin.png" alt="">
+                    <h1>5500</h1>
+                </div>
+            </nav>
+
+        </section>
+    </header>
+    <main class="container w-11/12 mx-auto ">
+        <h1 class="text-5xl font-bold mt-4 mb-8">Improtant FAQ </h1>
+
+        <div class="">
+            <div class="collapse collapse-arrow bg-base-200 border-two">
+                <input type="radio" name="my-accordion-2" checked="checked" />
+                <div class="collapse-title text-xl font-medium">What is Dom</div>
+                <div class="collapse-content">
+                    <p>The Document Object Model (DOM) is a programming interface that represents the structure of an HTML or XML document as a tree of objects. Each part of the document, such as elements, attributes, and text, is represented as a node in this tree. With the DOM, developers can dynamically access, update, and modify the content, structure, and styles of a webpage using JavaScript. It enables interaction with the document through methods like getElementById or querySelector. Additionally, the DOM supports event handling, making it possible to respond to user actions like clicks or keystrokes, which is essential for creating interactive and dynamic web applications.</p>
+                </div>
+            </div>
+            <div class="collapse collapse-arrow bg-base-200 border-two">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-xl font-medium">what is dom meaning</div>
+                <div class="collapse-content">
+                    <p>The Document Object Model (DOM) is a programming interface for HTML and XML documents. It represents the document as a tree structure, where elements, attributes, and text are nodes. Developers can use JavaScript to dynamically access, modify, or update the content, structure, and styling of webpages, enabling interactive functionality.</p>
+                </div>
+            </div>
+            <div class="collapse collapse-arrow bg-base-200 border-two">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-xl font-medium">Why is DOM used in JavaScript?</div>
+                <div class="collapse-content">
+                    <p>
+                        The DOM is used in JavaScript to dynamically manipulate web pages. It allows developers to access, modify, or update HTML elements, attributes, and styles. By using the DOM, JavaScript can handle user interactions, like clicks or input events, and create interactive web applications by dynamically altering the webpage's content or structure.</p>
+                </div>
+            </div>
+            <div class="collapse collapse-arrow bg-base-200 border-two">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-xl font-medium">How to Work DOM</div>
+                <div class="collapse-content">
+                    <p>The DOM works by representing an HTML document as a tree of nodes. JavaScript interacts with this tree using methods like getElementById or querySelector. Developers can add, modify, or remove elements, attributes, and styles dynamically. Event listeners enable responses to user actions, making the webpage interactive and responsive.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/index.js"></script>
+    <script src="js/home.js"></script>
+
+</body>
+
+</html>
